@@ -47,11 +47,16 @@ div.nav-bar li.right {
   .nav-bar li {
     float: none;
   }
+
+  .nav-bar {
+    padding: 60px 0;
+  }
+
   .intro,
   .project-intro,
   .contact-intro {
-    margin: 20px;
-    padding: 20px 0px;
+    margin: 5px;
+    padding: 0px 5px;
   }
 }
 
