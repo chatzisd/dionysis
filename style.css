@@ -42,7 +42,7 @@ div.nav-bar li.right {
   float: right;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   div.nav-bar li.right,
   .nav-bar li {
     float: none;
