@@ -1,0 +1,68 @@
+body {
+  margin: 0px;
+}
+
+.nav-bar {
+  padding: 20px 0;
+}
+
+.nav-bar ul {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: teal;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar li a {
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover:not(.active) {
+  background-color: rgba(0, 0, 0, 0.795);
+  color: white;
+}
+
+.nav-bar li .active {
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+div.nav-bar li.right {
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  div.nav-bar li.right,
+  .nav-bar li {
+    float: none;
+  }
+  .intro,
+  .project-intro,
+  .contact-intro {
+    margin: 20px;
+    padding: 20px 0px;
+  }
+}
+
+.intro .photo {
+  width: 180px;
+  height: auto;
+}
+
+.intro,
+.project-intro,
+.contact-intro {
+  margin: 5px;
+  padding: 0px 5px;
+}
