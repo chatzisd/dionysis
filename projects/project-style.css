@@ -1,0 +1,27 @@
+.site-content {
+  padding-top: 2em;
+}
+
+.container {
+  margin-left: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.projects-area hr {
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px black;
+}
+
+.projects-area article {
+  /* padding-bottom: 10px; */
+}
+
+.entry-header a {
+  text-decoration: none;
+  color: #d9672a;
+}

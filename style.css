@@ -1,5 +1,7 @@
 body {
   margin: 0px;
+  background-color: #23252c;
+  color: #d7d7d7;
 }
 
 .nav-bar {
@@ -11,10 +13,13 @@ body {
   padding: 0px;
   overflow: hidden;
   list-style-type: none;
-  background-color: teal;
+  background-color: #242529;
   top: 0px;
   position: fixed;
   width: 100%;
+  border-style: ridge;
+  border-width: 1px 0 1px 0;
+  border-color: #d9672a;
 }
 
 .nav-bar li {
@@ -30,26 +35,38 @@ body {
 }
 
 .nav-bar li a:hover:not(.active) {
-  background-color: rgba(0, 0, 0, 0.795);
+  background-color: #ad5424;
   color: white;
 }
 
 .nav-bar li .active {
-  background-color: rgba(0, 0, 0, 0.795);
+  background-color: #d9682a;
 }
 
 div.nav-bar li.right {
   float: right;
+  /* width: 90px; */
+  margin-right: 10px;
 }
 
-@media screen and (max-width: 900px) {
+.intro .photo {
+  /* width: 180px; */
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+  float: left;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
   div.nav-bar li.right,
   .nav-bar li {
     float: none;
+    margin-right: 0px;
   }
 
   .nav-bar {
-    padding: 60px 0;
+    padding: 95px 0;
   }
 
   .intro,
@@ -58,11 +75,21 @@ div.nav-bar li.right {
     margin: 5px;
     padding: 0px 5px;
   }
-}
 
-.intro .photo {
-  width: 180px;
-  height: auto;
+  body {
+    font-size: 20px;
+  }
+
+  .intro .photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    max-width: 600px;
+    /* max-height: 500px; */
+    width: 100%;
+    height: auto;
+  }
 }
 
 .intro,
